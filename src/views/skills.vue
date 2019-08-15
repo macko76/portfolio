@@ -8,7 +8,7 @@
     <h4 class="mt-3">Languages & Frameworks</h4>
     <p>{{stack.languages}}</p>
 
-    <h4 class="mt-3">Project Management</h4>
+    <h4 class="mt-3">Product Management</h4>
     <p>{{stack.management}}</p>
 
     <h4 class="mt-3">Additional Experience</h4>
