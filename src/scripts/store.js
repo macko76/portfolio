@@ -84,7 +84,7 @@ const $store = new Vuex.Store({
       {
         title: 'Web Developer',
         org: 'Starling Minds',
-        url: 'http://www.lighthouselabs.ca/',
+        url: 'https://www.starlingminds.com/',
         subtitle: 'June 2018 - June 2019',
         content: 'I was responsible for replatforming an existing application into a mobile product using Vue.js and Cordova. I lead the design and implementation of the front-end, including the mobile-first UI design, automated testing, caching & service workers, build + deployment and code reviews for junior team members.',
       },
@@ -111,7 +111,7 @@ const $store = new Vuex.Store({
         title: 'Web Development Mentor',
         org: 'Lighthouse Labs',
         url: 'http://www.lighthouselabs.ca/',
-        subtitle: 'May 2018 - Febuary 2019',
+        subtitle: 'May 2018 - February 2019',
         content: 'Mentored the full-time Lighthouse Labs Web Development Bootcamp, instructing students in the fundamentals of full-stack web development. Assisted with the JavaScript, SQL and Ruby-based curriculum, providing pair-programming and debugging.',
       },
       {
@@ -179,7 +179,7 @@ const $store = new Vuex.Store({
         org: 'Laing House',
         url: 'http://www.lainghouse.org',
         subtitle: 'September 2013 - September 2015',
-        content: 'Laing House is a non-profit organization that provides a non-clinical environment where people ages 16-29 who are living with mental illness can come find peer support. My role involved raising funds for the continued support of members through donor communications. This included donor engagement campaigns, speech writing, promoting fundraising initiatives and creating impact through community outreach.',
+        content: 'Laing House is a non-profit organization that provides a non-clinical environment for people living with mental illness. My role involved raising funds for the continued support of members through donor communications. This included donor engagement campaigns, speech writing, promoting fundraising initiatives and creating impact through community outreach.',
         projects: [
           {
             title: 'Fundraising Events',
