@@ -1,5 +1,5 @@
-importScripts("/precache-manifest.43bedf8b391652602591e06519db9e0f.js", "/workbox-v3.6.3/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "/workbox-v3.6.3"});
+importScripts("/portfolio/precache-manifest.6b592d87d295120d068dd7ae98da719f.js", "/portfolio/workbox-v3.6.3/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "/portfolio/workbox-v3.6.3"});
 /* Service Worker methods */
 /* global importScripts Promise workbox */
 /* eslint-disable no-undef, no-unused-vars, no-console */
