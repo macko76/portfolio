@@ -1,5 +1,3 @@
-importScripts("/precache-manifest.64eba36beb3dc384641f32be3e789e0b.js", "/workbox-v3.6.3/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "/workbox-v3.6.3"});
 /* Service Worker methods */
 /* global importScripts Promise workbox */
 /* eslint-disable no-undef, no-unused-vars, no-console */
@@ -76,4 +74,3 @@ if (workbox) {
   console.log(`Offline mode is not available in your current browser.`);
 }
 /* eslint-enable no-undef, no-unused-vars, no-console */
-
