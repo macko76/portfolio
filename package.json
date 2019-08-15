@@ -13,7 +13,8 @@
     "build": "vue-cli-service build",
     "lint:all": "yarn lint:js --fix && yarn lint:scss --fix",
     "lint:js": "vue-cli-service lint",
-    "lint:scss": "stylelint '**/*.scss' --syntax scss"
+    "lint:scss": "stylelint '**/*.scss' --syntax scss",
+    "deploy": "yarn build && git add . && git subtree push --prefix dist origin gh-pages"
   },
   "gitHooks": {
     "pre-commit": "yarn lint:all"
