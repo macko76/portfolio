@@ -11,7 +11,7 @@
       {{content.email}}
     </v-btn>
     <br />
-    <v-btn color="black" class="ma-1" :href="`tel:${content.phone}`" target="_blank" small flat>
+    <v-btn color="black" class="ma-1" :href="`tel:${content.phone}`" small flat>
       <v-icon dark small class="mr-2 mt-0">phone</v-icon>
       {{content.phone}}
     </v-btn>
@@ -33,7 +33,7 @@
     </v-btn>
     <br />
     <header class="mt-4">Experience</header>
-    <ul class="mt-3">
+    <ul class="mt-3 mb-3">
       <li v-for="(item, index) in content.experience" :key="index">{{item}}</li>
     </ul>
   </v-navigation-drawer>

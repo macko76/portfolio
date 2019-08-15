@@ -20,7 +20,7 @@ const $store = new Vuex.Store({
         'Communications & Copywriting',
       ],
     },
-    summary: 'Web Developer with an obsession for clean design and building seamless experiences. I love teaching, refactoring and creating processes to smooth the development workflow. Experienced with Javascript (Vue.js), agile team work and product design, I\'m looking to join a fun and passionate team.',
+    summary: 'Web Developer with an obsession for clean design and building seamless experiences. I love teaching, refactoring and creating processes to smooth the development workflow. Experienced with Javascript (Vue.js), agile team work and product design, I\'m looking to join a fun organization with passionate people.',
     stack: {
       languages: 'Vue.js,  React,  Node,  Cordova, SASS, Cypress, Mocha/Chai, MongoDB, SQL.',
       management: 'Git, Webpack, Yarn, Agile, Jira, Analytics, Copywriting.',

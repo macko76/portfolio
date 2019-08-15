@@ -5,7 +5,7 @@ const webpackPlugins = [ new VuetifyLoaderPlugin() ];
 if (process.env === 'production') webpackPlugins.push(new TerserPlugin());
 
 module.exports = {
-  publicPath: '/portfolio/',
+  publicPath: process.env === 'production' ? '/portfolio/' : '/',
   outputDir: 'dist',
   assetsDir: './public',
   lintOnSave: true,
