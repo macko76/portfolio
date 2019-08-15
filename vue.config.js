@@ -5,7 +5,7 @@ const webpackPlugins = [ new VuetifyLoaderPlugin() ];
 if (process.env === 'production') webpackPlugins.push(new TerserPlugin());
 
 module.exports = {
-  publicPath: '/',
+  publicPath: '/portfolio/',
   outputDir: 'dist',
   assetsDir: './public',
   lintOnSave: true,
@@ -50,17 +50,17 @@ module.exports = {
     modules: true,
   },
 
-  // parallel: require('os').cpus().length > 1,
+  parallel: require('os').cpus().length > 1,
 
-  // devServer: {
-  //   open: !process.env === 'test',
-  //   disableHostCheck: false,
-  //   host: '0.0.0.0',
-  //   port: 8080,
-  //   https: false,
-  //   hotOnly: false,
-  //   proxy: null, // string | Object
-  //   before: app => { },
-  // },
+  devServer: {
+    open: !process.env === 'test',
+    disableHostCheck: false,
+    host: '0.0.0.0',
+    port: 8080,
+    https: false,
+    hotOnly: false,
+    proxy: null, // string | Object
+    before: app => { },
+  },
 
 };
