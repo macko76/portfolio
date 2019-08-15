@@ -73,11 +73,11 @@ const $store = new Vuex.Store({
         ],
       },
       {
-        title: 'Marketing & Management Diploma',
+        title: 'Business Administration Diploma',
         org: 'NSCC',
         url: 'http://www.nscc.ca/',
         subtitle: 'Graduated June 2013',
-        content: 'Received a diploma in Marketing & Management and completed a six month work placement.',
+        content: 'Received a diploma in Business Administraction (marketing & management) and completed a six month work placement as a marketing assistant for Telus.',
       },
     ],
     experience: [

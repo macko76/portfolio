@@ -1,6 +1,6 @@
 
 <template>
-  <div>
+  <div class="mb-4">
     <header>Summary</header>
     <section class="mt-4 mb-4">{{summary}}</section>
 
