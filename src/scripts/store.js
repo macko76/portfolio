@@ -20,7 +20,7 @@ const $store = new Vuex.Store({
         'Communications & Copywriting',
       ],
     },
-    summary: 'Web Developer with an obsession for clean design and building seamless experiences. I love teaching, refactoring and creating processes to smooth the development workflow. Experienced with Javascript (Vue.js), agile team work and product design, I\'m looking to join a fun organization with passionate people.',
+    summary: 'Web Developer with an obsession for clean design and building seamless experiences. I love teaching, refactoring and creating processes to smooth the development workflow. Experienced with Javascript (Vue.js), agile team work and product design - I\'m looking to join a fun organization with passionate people.',
     stack: {
       languages: 'Vue.js,  React,  Node,  Cordova, SASS, Cypress, Mocha/Chai, MongoDB, SQL.',
       management: 'Git, Webpack, Yarn, Agile, Jira, Analytics, Copywriting.',
@@ -53,7 +53,7 @@ const $store = new Vuex.Store({
             title: 'Chatty',
             img: 'chatty.png',
             url: 'https://github.com/drhaliburton/Chatty',
-            skills: 'React, Node, Webpacl, Babel.',
+            skills: 'React, Node, Webpack, Babel.',
             content: 'A real-time chat app that allow users to send and receive messages/notifications, change their username and view the number of online users.',
           },
           {
@@ -77,7 +77,7 @@ const $store = new Vuex.Store({
         org: 'NSCC',
         url: 'http://www.nscc.ca/',
         subtitle: 'Graduated June 2013',
-        content: 'Received a diploma in Business Administraction (marketing & management) and completed a six month work placement as a marketing assistant for Telus.',
+        content: 'Received a diploma in Business Administration (marketing & management) and completed a six month work placement as a marketing assistant for Telus.',
       },
     ],
     experience: [
