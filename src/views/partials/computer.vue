@@ -27,6 +27,6 @@ header {
 img {
   display: flex;
   margin: 0 auto 10px;
-  max-width: 300px;
+  max-width: 270px;
 }
 </style>

@@ -1,6 +1,6 @@
 
 <template>
-  <v-navigation-drawer class="sidebar pl-4 pr-5" width="400" mobile-break-point="1000" app>
+  <v-navigation-drawer class="sidebar pl-4 pr-5" width="350" mobile-break-point="1000" app>
     <computer />
     <a href="https://www.linkedin.com/in/rhaliburton/" target="_blank">
       <h1>{{content.title}}</h1>

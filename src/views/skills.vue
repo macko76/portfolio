@@ -2,7 +2,7 @@
 <template>
   <div class="mb-4">
     <header>Summary</header>
-    <section class="mt-4 mb-4">{{summary}}</section>
+    <p class="mt-4 mb-4">{{summary}}</p>
 
     <header>Skill Stack</header>
     <h4 class="mt-3">Languages & Frameworks</h4>
