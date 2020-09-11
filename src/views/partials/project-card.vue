@@ -24,13 +24,3 @@ export default {
   props: [ 'item' ],
 };
 </script>
-
-<style scoped>
-p {
-  font-size: 14px;
-}
-
-small {
-  font-size: 14px;
-}
-</style>

@@ -10,7 +10,7 @@
     </h2>
     <small>{{item.subtitle}}</small>
     <div class="mt-1" :class="{'pb-2': !item.projects}">
-      {{item.content}}
+      <p>{{item.content}}</p>
       <div v-if="item.projects" class="projects-container text-right">
         <v-btn class="mb-0 mt-2" @click="projectsActive = !projectsActive" small flat>
           View Projects

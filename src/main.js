@@ -3,7 +3,6 @@ import 'isomorphic-fetch';
 
 import Vue from 'vue';
 import App from '@/App.vue';
-import router from '@/scripts/router';
 import store from '@/scripts/store.js';
 import '@/registerServiceWorker';
 import Vuetify from '@/scripts/vuetify';
@@ -17,7 +16,6 @@ Vue.filter('getImagePath', (imagePath) => {
 });
 
 new Vue({
-  router,
   store,
   render: h => h(App),
 }).$mount('#app');

@@ -1,6 +1,6 @@
 
 <template>
-  <v-navigation-drawer class="sidebar pl-3 pr-4" mobile-break-point="850" app>
+  <v-navigation-drawer class="sidebar pl-4 pr-5" width="400" mobile-break-point="1000" app>
     <computer />
     <a href="https://www.linkedin.com/in/rhaliburton/" target="_blank">
       <h1>{{content.title}}</h1>
@@ -9,11 +9,6 @@
     <v-btn color="black" class="ma-1" :href="`mailto:${content.email}`" small flat>
       <v-icon dark small class="mr-2">email</v-icon>
       {{content.email}}
-    </v-btn>
-    <br />
-    <v-btn color="black" class="ma-1" :href="`tel:${content.phone}`" small flat>
-      <v-icon dark small class="mr-2 mt-0">phone</v-icon>
-      {{content.phone}}
     </v-btn>
     <br />
     <v-btn

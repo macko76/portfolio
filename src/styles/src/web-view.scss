@@ -1,6 +1,6 @@
 // DESKTOP VIEW CSS
 
-@media (min-width: 850px) {
+@media (min-width: 1000px) {
   .contact-container {
     display: none;
   }
@@ -16,7 +16,7 @@
   }
 
   .v-navigation-drawer {
-    transform: translateX(-300px) !important;
+    transform: translateX(-400px) !important;
   }
 
   .v-divider {

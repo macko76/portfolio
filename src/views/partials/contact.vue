@@ -11,10 +11,6 @@
       <v-icon dark small class="mr-2">email</v-icon>
       {{content.email}}
     </v-btn>
-    <v-btn color="black" class="ma-1" :href="`tel:${content.phone}`" small flat>
-      <v-icon dark small class="mr-2 mt-0">phone</v-icon>
-      {{content.phone}}
-    </v-btn>
   </div>
 </template>
 

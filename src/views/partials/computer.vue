@@ -25,6 +25,8 @@ header {
 }
 
 img {
-  max-width: 260px;
+  display: flex;
+  margin: 0 auto 10px;
+  max-width: 300px;
 }
 </style>

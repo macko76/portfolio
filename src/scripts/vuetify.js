@@ -3,8 +3,6 @@ import Vuetify, {
   VBtn,
 } from 'vuetify/lib';
 
-// import { Ripple } from 'vuetify/lib/directives';
-
 export default (Vue) => {
   Vue.use(Vuetify, {
     components: {

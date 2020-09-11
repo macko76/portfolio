@@ -32,9 +32,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-p {
-  font-size: 14px;
-}
-</style>

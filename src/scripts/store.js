@@ -9,7 +9,6 @@ const $store = new Vuex.Store({
       title: 'Rebecca Haliburton',
       subtitle: 'Web Development & Product Design',
       email: 'haliburtonre@gmail.com',
-      phone: '604-290-5521',
       github: 'drhaliburton',
       experience: [
         'Web Development',
@@ -20,11 +19,11 @@ const $store = new Vuex.Store({
         'Communications & Copywriting',
       ],
     },
-    summary: 'Web Developer with an obsession for clean design and building seamless experiences. I love teaching, refactoring and creating processes to smooth the development workflow. Experienced with Javascript (Vue.js), agile team work and product design - I\'m looking to join a fun organization with passionate people.',
+    summary: 'Web Developer with an obsession for clean design and building seamless experiences. I love teaching, refactoring and creating processes to smooth the development workflow. Experienced with the front-end (React) and product design - I\'m looking to join a fun organization with passionate people.',
     stack: {
-      languages: 'Vue.js,  React,  Node,  Cordova, SASS, Cypress, Mocha/Chai, MongoDB, SQL.',
-      management: 'Git, Webpack, Yarn, Agile, Jira, Analytics, Copywriting.',
-      other: 'Automated Testing, Progress Web Apps, Bash/Vim, Illustrator & Photoshop, SEO.',
+      languages: 'React, Vue.js, GraphQL/Apollo, Scala, Golang, SQL, Node, Cypress/Jest, MongoDB.',
+      management: 'Git,  Bash/Vim, Agile/Jira, Shape Up, Technical Design, Analytics, Copywriting.',
+      other: 'Automated Testing, Styled Components, Webpack, PWAs, Illustrator & Photoshop, SEO.',
       spoken: 'English, French.',
     },
     education: [
@@ -81,6 +80,13 @@ const $store = new Vuex.Store({
       },
     ],
     experience: [
+      {
+        title: 'Full-Stack Web Developer',
+        org: 'Bench Accounting',
+        url: 'https://www.bench.co',
+        subtitle: 'September 2019 - Present',
+        content: 'Bench is the world’s largest online bookkeeping service, using a combination of accounting automation and human power to provide clean books to small business owners. As a member of the bookkeeping and neobanking teams, I contribute to the internal & client-facing applications and their associated microservices. This includes working across the stack, predominantly building with React, GraphQL/Apollo, Golang, Scala and Java.',
+      },
       {
         title: 'Web Developer',
         org: 'Starling Minds',
