@@ -1,4 +1,4 @@
-importScripts("/portfolio/precache-manifest.a5230fa2b6f4de5edfee8740e3087d98.js", "/portfolio/workbox-v3.6.3/workbox-sw.js");
+importScripts("/portfolio/precache-manifest.8452de62843c265fc64fa24508bec656.js", "/portfolio/workbox-v3.6.3/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "/portfolio/workbox-v3.6.3"});
 /* Service Worker methods */
 /* global importScripts Promise workbox */

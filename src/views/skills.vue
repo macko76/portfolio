@@ -21,7 +21,7 @@
 
 <script>
 export default {
-  name: "Skills",
+  name: 'Skills',
   computed: {
     summary() {
       return this.$store.getters.summary;
