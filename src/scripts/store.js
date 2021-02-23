@@ -12,8 +12,8 @@ const $store = new Vuex.Store({
       github: 'drhaliburton',
       experience: [
         'Web Development',
-        'UX/UI Design',
-        'Project & Product Management',
+        'UX/UI/Product Design',
+        'Project Management',
         'Digital Marketing',
         'Graphic Design',
         'Communications & Copywriting',
@@ -21,10 +21,10 @@ const $store = new Vuex.Store({
     },
     summary: 'Web Developer with an obsession for clean design and building seamless experiences. I love teaching, refactoring and creating processes to smooth the development workflow. Experienced with the front-end (React) and product design - I\'m looking to join a fun organization with passionate people.',
     stack: {
-      languages: 'React, Vue.js, GraphQL/Apollo, Scala, Golang, SQL, Node, Cypress/Jest, MongoDB.',
-      management: 'Git,  Bash/Vim, Agile/Jira, Shape Up, Technical Design, Analytics, Copywriting.',
-      other: 'Automated Testing, Styled Components, Webpack, PWAs, Illustrator & Photoshop, SEO.',
-      spoken: 'English, French.',
+      languages: 'JavaScript (React, Vue, Typescript), GraphQL/Apollo, Scala, Golang, SQL, Cypress/Jest/React Testing Library',
+      other: 'Styled Components, Webpack, Yarn, Ionic/Capacitor, PWAs, UX/UI design, TDD',
+      management: 'Agile, Shape Up, Product Design, Analytics, Copywriting, SEO',
+      spoken: 'English, French',
     },
     education: [
       {
